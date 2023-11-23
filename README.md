@@ -1,0 +1,1 @@
+# Ritual-App-Data-Engineer-Home-Exercise
