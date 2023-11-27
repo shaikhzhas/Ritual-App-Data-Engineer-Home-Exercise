@@ -27,7 +27,7 @@ Copy the token for use in the next steps.
 
 ### 3. Upload Raw Data to DuckDB:
 
-Run the **starter.ipynb**  Jupyter notebook to upload your raw data to DuckDB:
+Run the `starter.ipynb`  Jupyter notebook to upload your raw data to DuckDB:
 
 - Launch Jupyter Notebook by running jupyter notebook in your terminal.
 - Open the provided starter notebook from the project directory.
