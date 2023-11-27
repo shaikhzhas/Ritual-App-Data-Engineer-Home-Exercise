@@ -20,16 +20,15 @@ pip install -r requirements.txt
 
 To interact with MotherDuck, you'll need an authentication token. Obtain this token from the MotherDuck UI Settings:
 
-Log in to the MotherDuck UI.
-Navigate to the Settings area.
-Locate the API token section and generate a new token if necessary.
-Copy the token for use in the next steps.
+- Log in to the MotherDuck UI.
+- Navigate to the Settings area.
+- Locate the API token section and generate a new token if necessary.
+- Copy the token for use in the next steps.
 
 ### 3. Upload Raw Data to DuckDB:
 
 Run the `starter.ipynb`  Jupyter notebook to upload your raw data to DuckDB:
 
-- Launch Jupyter Notebook by running jupyter notebook in your terminal.
 - Open the provided starter notebook from the project directory.
 - Replace the placeholder in the notebook with your MotherDuck token where indicated.
 - Execute the notebook cells in order to upload data to DuckDB.
