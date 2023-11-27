@@ -10,5 +10,3 @@ from
     {{ ref('user_events') }}
 group by
     event_day, event_type
-order by
-    event_day, event_count desc

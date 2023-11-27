@@ -20,9 +20,6 @@ t2 as (
         t1
     where
         event_type != previous_event_type OR previous_event_type IS NULL
-    order by
-        user_id, 
-        event_date
 )
 select
     event_type,

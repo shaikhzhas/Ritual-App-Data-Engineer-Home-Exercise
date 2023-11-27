@@ -8,4 +8,3 @@ from
     {{ ref('user_events') }}
 group by
     event_month
-order by event_month desc

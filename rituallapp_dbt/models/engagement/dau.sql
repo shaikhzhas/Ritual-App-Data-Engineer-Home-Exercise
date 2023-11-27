@@ -18,5 +18,3 @@ left join
 on dr.date=ue.event_date
 group by
     dr.date 
-order by dr.date  desc
-

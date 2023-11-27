@@ -8,5 +8,3 @@ FROM
     {{ ref('user_events') }} 
 GROUP BY
     page
-ORDER BY
-    event_count DESC

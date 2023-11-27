@@ -16,4 +16,3 @@ left join
 on dr.date=up.signup_date
 group by
     dr.date 
-order by dr.date  desc

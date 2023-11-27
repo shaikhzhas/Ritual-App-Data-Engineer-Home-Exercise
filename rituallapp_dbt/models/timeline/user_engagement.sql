@@ -21,5 +21,3 @@ group by
     s.user_segment,
     p.signup_date,
     date_trunc('week', e.event_date)
-order by
-    date_trunc('week', e.event_date) asc

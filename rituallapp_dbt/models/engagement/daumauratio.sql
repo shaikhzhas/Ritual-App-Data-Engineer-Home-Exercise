@@ -25,5 +25,3 @@ join
     mau on date_trunc('month', dau.event_date) = mau.event_month
 group by
     mau.event_month, mau.mau
-order by
-    mau.event_month
