@@ -29,19 +29,31 @@ To interact with MotherDuck, you'll need an authentication token. Obtain this to
 
 Run the `starter.ipynb`  Jupyter notebook to upload your raw data to DuckDB:
 
+- Set Token Environment Variable:
+    ```sh
+    export MOTHERDUCK_TOKEN=your-token-value
+    ```
 - Open the provided starter notebook from the project directory.
-- Replace the placeholder in the notebook with your MotherDuck token where indicated.
 - Execute the notebook cells in order to upload data to DuckDB.
 
 ### 4. Build Models with dbt:
 
 - Use dbt (data build tool) to transform your raw data into models
-- Ensure dbt is installed and set up with the necessary profiles to connect to DuckDB.
-- Run the dbt project using:
-```sh
-cd ritualapp_dbt \
-dbt run
-```
+    ```sh
+    cd ritualapp_dbt
+    ```
+- Ensure dbt is installed:
+    ```sh
+    dbt --version
+    ```
+- set up with the necessary profiles to connect to DuckDB.
+    ```sh
+    dbt --debug --profiles-dir ./
+    ```
+- Build the models using:
+    ```sh
+    dbt run
+    ```
 This command will compile your dbt models and execute them against your DuckDB database.
 
 ### 5. Connect MotherDuck to Preset:
