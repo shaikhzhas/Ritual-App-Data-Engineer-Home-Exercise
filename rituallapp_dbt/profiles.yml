@@ -2,7 +2,7 @@ rituallapp:
   outputs:
     dev:
       type: duckdb
-      path: 'md:ritualapp?motherduck_token={{ env_var('MOTHERDUCK_TOKEN') }}'
+      path: 'md:ritualapp?motherduck_token="{{ env_var('MOTHERDUCK_TOKEN') }}"'
       threads: 4
       schema: analytics
 
