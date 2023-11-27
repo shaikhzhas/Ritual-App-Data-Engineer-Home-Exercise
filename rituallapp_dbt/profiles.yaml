@@ -1,8 +1,0 @@
-rituallapp:
-  outputs:
-    dev:
-      type: duckdb
-      path: 'md:ritualapp?motherduck_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoic2hhaWtoLnpoYXMuZ21haWwuY29tIiwiZW1haWwiOiJzaGFpa2guemhhc0BnbWFpbC5jb20iLCJ1c2VySWQiOiJlMDA2YTkyYi0yNTQxLTQxNWMtYTczMy0zNWYxYmIyOGM5MDEiLCJpYXQiOjE3MDA3Mzk1NDcsImV4cCI6MTczMjI5NzE0N30.SYNakAM-npkacfFKMXWiGBdGFcqeNeBrH51YLhG45Ac'
-      threads: 2
-
-  target: dev
