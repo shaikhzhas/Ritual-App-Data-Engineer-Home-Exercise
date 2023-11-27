@@ -1,0 +1,32 @@
+
+version: 2
+
+sources:
+  - name: raw
+    database: ritualapp
+    schema: raw
+    tables:
+
+      - name: user_profiles
+        description: "User profiles"
+        columns:
+          - name: user_id
+            description: "The primary key for this table."
+          - name: signup_date
+            description: "Date when the user signed up."
+          - name: last_login_date
+            description: "The most recent date the user logged in."
+
+      - name: user_events
+        description: "User events"
+        columns:
+          - name: event_id
+            description: "Unique identifier for the event."
+          - name: user_id
+            description: "Identifier for the user who triggered the event."
+          - name: event_type
+            description: "Type of event (e.g., 'click','view', 'purchase')."
+          - name: event_date
+            description: "Date and time of the event."
+          - name: page
+            description: "The application page where the event occurred."
