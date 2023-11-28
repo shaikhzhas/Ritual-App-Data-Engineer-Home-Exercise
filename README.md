@@ -48,7 +48,7 @@ Run the `starter.ipynb`  Jupyter notebook to upload your raw data to DuckDB:
     ```
 - set up with the necessary profiles to connect to DuckDB.
     ```sh
-    dbt --debug --profiles-dir ./
+    dbt debug --profiles-dir ./
     ```
 - Build the tables using:
     ```sh
