@@ -50,9 +50,9 @@ Run the `starter.ipynb`  Jupyter notebook to upload your raw data to DuckDB:
     ```sh
     dbt --debug --profiles-dir ./
     ```
-- Build the models using:
+- Build the tables using:
     ```sh
-    dbt run
+    dbt run --profiles-dir ./
     ```
 This command will compile your dbt models and execute them against your DuckDB database.
 
